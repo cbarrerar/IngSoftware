@@ -19,7 +19,39 @@ public class Actividades {
 
 	}
 
-	public void finalize() throws Throwable {
+        public char getDescripcion() {
+            return descripcion;
+        }
 
-	}
-}//end Actividades
+        public void setDescripcion(char descripcion) {
+            this.descripcion = descripcion;
+        }
+
+        public String getFecha() {
+            return fecha;
+        }
+
+        public void setFecha(String fecha) {
+            this.fecha = fecha;
+        }
+
+        public int getId() {
+            return id;
+        }
+
+        public void setId(int id) {
+            this.id = id;
+        }
+
+        public Empleado getM_Empleado() {
+            return m_Empleado;
+        }
+
+        public void setM_Empleado(Empleado m_Empleado) {
+            this.m_Empleado = m_Empleado;
+        }
+
+        public void finalize() throws Throwable {
+
+            }
+    }//end Actividades
