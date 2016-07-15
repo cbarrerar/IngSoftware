@@ -10,5 +10,9 @@ package Modelo;
  * @author PERSONAL
  */
 public class Departamento {
+	private int Id_Dept;
+	private char Nom_Dept;
+	public Cargo m_Cargo;
+
     
 }
